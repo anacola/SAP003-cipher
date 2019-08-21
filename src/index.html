@@ -7,8 +7,19 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Cifra de Caesar</h1>
     </div>
+
+    <form>
+      <p>Qual sua mensagem? <textarea type="text" placeholder="Escreva aqui sua mensagem." id="message"></textarea></p>
+      <p>Insira sua chave <textarea type = "number" placeholder="Insira sua chave" id="key"></textarea></p>
+            <input type="submit" id="encodebutton" value="Cifrar" onclick="EncodeMessages()"/>
+                  
+      
+    </form> 
+    
+    <p id="result"></p>
+ 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
