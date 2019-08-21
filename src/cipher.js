@@ -1,5 +1,6 @@
 window.cipher = {
   encode: encode,
+  decode: decode,
   
 };
 
@@ -10,6 +11,15 @@ function encode(mensagem, deslocamento){
     resultado += String.fromCharCode(formula);
     }
 return resultado    
+}
+
+function decode(mensagem, deslocamento){
+  let decoderesult = ""
+    for  (let i=0; mensagem.length >i; i++){
+    let formula = ((mensagem.charCodeAt(i)-65 + deslocamento)% 26)+65;
+    decoderesult += String.fromCharCode(formula);
+    }
+return decoderesult  
 }
 /*window.cipher = {
 
