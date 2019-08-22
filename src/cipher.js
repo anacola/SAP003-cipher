@@ -16,7 +16,7 @@ return resultado
 function decode(mensagem, deslocamento){
   let decoderesult = ""
     for  (let i=0; mensagem.length >i; i++){
-    let formula = ((mensagem.charCodeAt(i) - deslocamento + 65)% 26)+65;
+    let formula = ((mensagem.charCodeAt(i) - 90 - deslocamento)% 26)+90;
     decoderesult += String.fromCharCode(formula);
     }
 return decoderesult  

@@ -4,32 +4,33 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root">
-      <h1>Cifra de Caesar</h1>
+      <h1>ONG VIDA MARINHA</h1>
     </div>
 
     <form>
-      <p>Que mensagem você quer cifrar? <textarea type="text" placeholder="Escreva aqui sua mensagem." id="message"></textarea></p>
-      <p>Insira sua chave <textarea type = "number" placeholder="Insira sua chave" id="key"></textarea></p>
-            <input type="submit" id="encodebutton" value="Cifrar" onclick="EncodeMessages()"/>
-                  
+      <p>Que mensagem você quer <strong>CIFRAR?</strong></p>
+        <textarea type="text" placeholder="Escreva aqui sua mensagem." id='message'></textarea>
+      <p><textarea type = "number" placeholder="Insira sua chave" id='key'></textarea></p>
+      <div><input type='submit' id='encodebutton' value='Cifrar' onclick="EncodeMessages()"/></div>   
       
     </form> 
     
     <p id="result"></p>
 
     <form>
-      <p>Que mensagem você quer decifrar? <textarea type="text" placeholder="Escreva aqui sua mensagem." id="Dmessage"></textarea></p>
-      <p>Insira sua chave <textarea type = "number" placeholder="Insira sua chave" id="Dkey"></textarea></p>
-            <input type="submit" id="encodebutton" value="Cifrar" onclick="DecodeMessage()"/>
-                  
+      <p>Que mensagem você quer <strong>DECIFRAR?</strong></p>
+        <textarea type="text" placeholder="Escreva aqui sua mensagem." id="Dmessage"></textarea>
+      <p><textarea type = "number" placeholder="Insira sua chave" id="Dkey"></textarea></p> 
+      <div><input type="submit" id="encodebutton" value="Cifrar" onclick="DecodeMessage()"/></div>  
       
     </form> 
     
     <p id="resultdecode"></p>
-
+        
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

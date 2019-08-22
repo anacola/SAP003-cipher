@@ -1,0 +1,72 @@
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+p {
+    color:white  ;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;  
+}
+
+#key{
+    height: 20px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+#Dkey{
+    height: 20px;
+    width: 100px; 
+    border-radius: 30px;
+}
+
+body{
+    background-image: url("fundo.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+    border: 1px solid #00B3B8;
+    border-radius: 15px;
+    color: gray;
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;  
+}
+
+#encodebutton{
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color:#F2A900;
+    height: 30px;
+    width: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#result{
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+#resultdecode{
+    font-weight: bold;
+    font-size: 20px;  
+}
