@@ -25,8 +25,16 @@ function encode(deslocamento, mensagem) {
 function decode(deslocamento, mensagem) {
   let decoderesult = "" ;
   for (let i=0; mensagem.length >i; i++) {
-    let formula = ((mensagem.charCodeAt(i) - 90 - deslocamento)% 26)+90;
-    decoderesult += String.fromCharCode(formula);
+    if (mensagem.charCodeAt(i)>=65 && mensagem.charCodeAt(i)<=90) {
+      let formula = ((mensagem.charCodeAt(i) - 90 - deslocamento)% 26)+90;
+      decoderesult += String.fromCharCode(formula);
+    } else if (mensagem.charCodeAt(i)>=97 && mensagem.charCodeAt(i) <=122){
+      formula = ((mensagem.charCodeAt(i) - 122 - deslocamento)%26)+122;
+      decoderesult += String.fromCharCode(formula);
+    } else if (mensagem.charCodeAt(i) >=32 && mensagem.charCodeAt(i)<=64){
+      formula = (mensagem.charCodeAt(i));
+      decoderesult += String.fromCharCode(formula);
+    }  
   }
   return decoderesult;
 }
