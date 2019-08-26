@@ -10,7 +10,7 @@ function EncodeMessage() {
   let text = document.getElementById("message").value;
   let chave = Number(document.getElementById("key").value);
     
-  let teste = window.cipher.encode(text, chave);
+  let teste = window.cipher.encode(chave, text);
 
   document.getElementById("result").innerHTML=`${teste}`;
 }
