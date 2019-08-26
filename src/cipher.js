@@ -4,22 +4,22 @@ window.cipher = {
   
 };
 
-function encode(mensagem, deslocamento){
-  let resultado = ""
-    for  (let i=0; mensagem.length >i; i++){
+function encode(deslocamento, mensagem) {
+  let resultado = "" ;
+  for (let i=0; mensagem.length >i; i++) {
     let formula = ((mensagem.charCodeAt(i) -65 + deslocamento)% 26)+65;
     resultado += String.fromCharCode(formula);
-    }
-return resultado    
+  }
+  return resultado;
 }
 
-function decode(mensagem, deslocamento){
-  let decoderesult = ""
-    for  (let i=0; mensagem.length >i; i++){
+function decode(deslocamento, mensagem) {
+  let decoderesult = "" ;
+  for (let i=0; mensagem.length >i; i++) {
     let formula = ((mensagem.charCodeAt(i) - 90 - deslocamento)% 26)+90;
     decoderesult += String.fromCharCode(formula);
-    }
-return decoderesult  
+  }
+  return decoderesult;
 }
 /*
 ((codigodaletraASC - 65 + deslocamento)% tamanhodoalfabeto)+codigoDaPrimeiraLetra
