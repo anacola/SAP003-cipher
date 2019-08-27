@@ -2,35 +2,25 @@
 
 ## Índice
 
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Avaliação](#8-avaliação)
-* [9. Guias, dicas e leituras
-  complementares](#9-guias-dicas-e-leituras-complementares)
-* [10. Checklist](#10-checklist)
-
+* [1. Como a Cifra de Cesar Funciona?](#Como-a-Cifra-de-Cesar-Funciona?)
+* [2. O Usuário](#2-O-Usuário)
+* [3. Interface](#3-Interface)
+* [4. Objetivos de aprendizagem](#4-Objetivos-de-aprendizagem)
+* [5.Checklist](#5-Checklist)
 ***
 
-## 1. Prefácio
+## 1. Como a Cifra de Cesar Funciona?
 
 Cifrar significa codificar. A [cifra de
 César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
-tipos de criptografias conhecidas na história. O imperador romano Júlio César
-utilizava essa cifra para enviar ordens secretas aos seus generais no campo de
-batalha.
-
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
-
+tipos de criptografias conhecidas na história. 
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
 tipo de cifra por substituição, em que cada letra do texto original é
 substituida por outra que se encontra há um número fixo de posições
 (deslocamento) mais a frente do mesmo alfabeto.
+![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
+
+<!-- 
 
 Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 
@@ -42,31 +32,61 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 Atualmente todas as cifras de substituição alfabética simples, são decifradas
 com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
-a cifra de Vigenère, e tem aplicação no sistema ROT13.
+a cifra de Vigenère, e tem aplicação no sistema ROT13. -->
 
-## 2. Resumo do projeto
+## 2. O Usuário
 
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
-indicando a chave de deslocamento (_offset_).
+Cada dia mais a preocupação com o meio-ambiente aumenta e o ecossistema marinho é importante para sobrevivência da humanidade na Terra. Os oceanos produzem metade do nosso oxigênio, reduzem as condições climáticas, absorvem grande quantidade de gás carbônico e fornecem alimentos a milhões de pessoas.
 
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
+Mas não é só a poluição e contaminação que influenciam negativamente nesse ecossistema, a pesca sem controle, o turismo desordenado, casas e hoteis sendo construidos em lugares irregulares, tudo resultado de uma educação ambiental defasada, também são prejudiciais.
 
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
-* Criar senhas seguras para email.
+Para essa preservação acontecer existem organizações não governamentais que estão dispostas a realizar esse trabalho. Como muitas vezes essas ONGs lutam contra governos e empresas poderosas elas necessitam um canal seguro para se comunicar, essa criação foi criada para esse fim.
 
-## 3. Objetivos de aprendizagem
+## 3. O Projeto
 
-Neste projeto você aprenderá a construir uma aplicação web que interaja com o
-usuário através do navegador e a lógica para essa interação. Em outras palavras,
-você aprenderá:
+A aplicação permite cifrar e decifrar letras maíusculas, minusculas, símbolos, espaços a partir do texto e do offset inserido pelo usuário.
 
-* Desenhar elementos de formulário em uma tela usando **HTML** e **CSS**.
+FLUXOGRAMA
+
+
+
+## 4. Interface
+
+Permite o usuário inserir a mensagem que será cifrada, o offset ou chave de deslocamento, receber a mensagem cifrada e o mesmo ao decifrar.
+
+IMAGEM DA INTERFACE
+
+
+## 5. Objetivos de aprendizagem
+
+Construir uma aplicação web que interaja com o usuário através do navegador e a lógica para essa interação com **HMTL, CSS e JavaScript**.
+
+## 6. Checklist
+
+Essa seção é para te ajudar a ter um controle do que você precisa completar.
+
+### Parte Obrigatória
+
+* [✔] `README.md` adicionar informação sobre o processo e decisões do desenho.
+* [✔] `README.md` explicar claramente quem são os usuários e as suas relações
+  com o produto.
+* [✔] `README.md` explicar claramente como o produto soluciona os
+  problemas/necessidades dos usuários.
+* [✔] Usar VanillaJS.
+* [✔] **Não** usar `this`.
+* [✔] Implementar `cipher.encode`.
+* [✔] Implementar `cipher.decode`.
+* [✔] Passar o linter com a configuração definida.
+* [✔] Passar as provas unitárias.
+* [✔] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
+  no mínimo 50% das _branches_.
+
+### Parte Opcional: "Hacker edition"
+
+* [✔] Cifrar/decifrar minúsculas.
+* [✔] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
+* [✔] Permitir usar `offset` negativo.
+<!-- * Desenhar elementos de formulário em uma tela usando **HTML** e **CSS**.
 * Permitir o usuário interagir com elementos do DOM e fazer com que a aplicação
   responda (cifrar/decifrar) quando ocorrer os **eventos de DOM**.
 * Manipular _strings_ (cadeias de texto).
@@ -76,9 +96,10 @@ você aprenderá:
 * Verificar a sua implementação com **provas unitárias**.
 * Entender as **necessidades do usuário** e propor soluções.
 * Organizar o seu tempo e priorizar tarefas em um ambiente de **alta
-  incerteza**.
+  incerteza**. -->
 
-## 4. Considerações gerais
+
+<!-- ## 4. Considerações gerais
 
 * Este projeto deve ser resolvido individualmente.
 * O projeto será entregue subindo o seu código no GitHub (commit/push) e o
@@ -92,14 +113,14 @@ Use o alfabeto simples (somente maiúsculas e sem ç):
 
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-### Definição do produto
+### Definição do produto -->
 
-No README.md, escreva como você definiu seu usuário e qual foi o processo para
+<!-- No README.md, escreva como você definiu seu usuário e qual foi o processo para
 definir o produto final a nível de expriência e interface.
 
 * Quem são os principais usuário do produto?
 * Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
+* Como você acredita que o produto está resolvendo os problemas do usuário? 
 
 ### Interface do usuário (UI)
 
@@ -303,4 +324,4 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 
 * [ ] Cifrar/decifrar minúsculas.
 * [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
-* [ ] Permitir usar `offset` negativo.
+* [ ] Permitir usar `offset` negativo.-->
