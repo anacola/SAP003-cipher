@@ -8,28 +8,28 @@
   </head>
   <body>
     <div id="root">
-      <h1>ONG VIDA MARINHA</h1>
+      <h1 class="titulo">ONG VIDA MARINHA</h1>
     </div>
 
     <form>
-      <p>Que mensagem você quer <strong>CIFRAR?</strong></p>
-        <textarea type="text" placeholder="Escreva aqui sua mensagem." id='message'></textarea>
-      <p><textarea type = "number" placeholder="Insira sua chave" id='key'></textarea></p>
-      <div><input type='submit' id='encodebutton' value="Cifrar"/></div>   
+      <p class="question">Que mensagem você quer <strong>CIFRAR?</strong></p>
+        <textarea type="text" placeholder="Escreva aqui sua mensagem." id='message'class="textbox"></textarea>
+      <div><textarea type = "number" placeholder="Insira sua chave" id='key' class="key"></textarea>
+        <input type='submit' id='encodebutton' value="Cifrar" class="botão"/></div>
       
     </form> 
     
-    <p id="result"></p>
+    <p id="result" class="resultado"></p>
 
     <form>
-      <p>Que mensagem você quer <strong>DECIFRAR?</strong></p>
-        <textarea type="text" placeholder="Escreva aqui sua mensagem." id="Dmessage"></textarea>
-      <p><textarea type = "number" placeholder="Insira sua chave" id="Dkey"></textarea></p> 
-      <div><input type="submit" id="decodebutton" value="Cifrar" /></div>  
+      <p class="question">Que mensagem você quer <strong>DECIFRAR?</strong></p>
+        <textarea type="text" placeholder="Escreva aqui sua mensagem." id="Dmessage" class="textbox"></textarea>
+      <div><textarea type = "number" placeholder="Insira sua chave" id="Dkey" class="key"></textarea>
+        <input type="submit" id="decodebutton" value="Decifrar" class="botão"/></div>
       
     </form> 
-    
-    <p id="resultdecode"></p>
+  
+    <p id="resultdecode" class="resultado"></p>
         
     <script src="cipher.js"></script>
     <script src="index.js"></script>

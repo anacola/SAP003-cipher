@@ -1,4 +1,77 @@
-html {
+body {
+    background-image: url("fundo.jpeg");
+    background-size: cover;
+    }
+
+.titulo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.question {
+    color:white  ;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textbox {
+    resize: none;
+    border: 1px solid #00B3B8;
+    border-radius: 15px;
+    color: gray;
+    height: 60px;
+    width: 300px;
+    padding: 5px 20px;
+    text-align: center;
+    margin:0px 0 0 465px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.key {
+    resize: none;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    margin:10px 0 0 500px;
+    
+}
+
+.botão {
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color:#F2A900;
+    height: 30px;
+    width: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left:2%;
+    margin:0px 0 0 0px;
+}
+
+.resultado {
+    color:white ;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; 
+}
+
+/* html {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -13,18 +86,6 @@ p {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;  
-}
-
-#key{
-    height: 20px;
-    width: 100px;
-    border-radius: 30px;
-}
-
-#Dkey{
-    height: 20px;
-    width: 100px; 
-    border-radius: 30px;
 }
 
 body{
@@ -47,6 +108,13 @@ textarea{
     font-size: 15px;  
 }
 
+#key{
+    height: 20px;
+    width: 100px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
 #encodebutton{
     color: white;
     border: none;
@@ -59,6 +127,7 @@ textarea{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
     font-size: 15px;
+    display: inline-block;
 }
 
 #result{
@@ -66,7 +135,35 @@ textarea{
     font-size: 20px;  
 }
 
+#decodebutton{
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color:#F2A900;
+    height: 30px;
+    width: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    margin-left:2%;
+}
+
+#Dkey{
+    height: 20px;
+    width: 100px; 
+    border-radius: 30px;
+    display: inline-block;
+    margin-left:2%;
+}
+
 #resultdecode{
     font-weight: bold;
     font-size: 20px;  
 }
+
+div{
+    position:
+} */
