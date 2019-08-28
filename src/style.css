@@ -60,6 +60,13 @@ body {
     font-size: 15px;
     margin-left:2%;
     margin:0px 0 0 0px;
+    position: absolute;
+    top: 18px;
+    left: 660px;
+}
+
+div {
+    position: relative;
 }
 
 .resultado {
