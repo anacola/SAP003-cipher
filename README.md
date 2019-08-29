@@ -46,7 +46,7 @@ A aplicação permite cifrar e decifrar letras maíusculas, minusculas, símbolo
 
 O usuário pode escolher entre cifrar ou decifrar uma mensagem, inserir a mensagem que será cifrada/decifrada, inserir o offset ou chave de deslocamento e receber a mensagem cifrada/decifrada
 
-![interface](Tela.PNG)
+![interface](Tela.png)
 
 
 ## 5. Objetivos de aprendizagem
