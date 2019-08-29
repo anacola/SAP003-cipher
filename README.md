@@ -20,6 +20,8 @@ A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É u
 tipo de cifra por substituição, em que cada letra do texto original é
 substituida por outra que se encontra há um número fixo de posições
 (deslocamento) mais a frente do mesmo alfabeto.
+
+
 ![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
 
@@ -76,4 +78,4 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 
 * [✔] Cifrar/decifrar minúsculas.
 * [✔] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
-* [✔] Permitir usar `offset` negativo.
+* [✔] Permitir usar `offset` negativo.  
