@@ -44,7 +44,7 @@ Para essa preservação acontecer existem organizações não governamentais que
 
 ## 3. O Projeto
 
-A aplicação permite cifrar e decifrar letras maíusculas, minusculas, símbolos, espaços a partir do texto e do offset inserido pelo usuário.
+A aplicação permite cifrar e decifrar letras maíusculas, minusculas, símbolos, espaços a partir do texto e do offset, positivo ou negativo, inserido pelo usuário.
 
 ![fluxograma](fluxograma.png)
 
@@ -53,7 +53,7 @@ A aplicação permite cifrar e decifrar letras maíusculas, minusculas, símbolo
 
 Permite o usuário inserir a mensagem que será cifrada, o offset ou chave de deslocamento, receber a mensagem cifrada e o mesmo ao decifrar.
 
-![interface](tela.png)
+![interface](Tela.png)
 
 
 ## 5. Objetivos de aprendizagem
