@@ -46,15 +46,14 @@ Para essa preservação acontecer existem organizações não governamentais que
 
 A aplicação permite cifrar e decifrar letras maíusculas, minusculas, símbolos, espaços a partir do texto e do offset inserido pelo usuário.
 
-FLUXOGRAMA
-
+![fluxograma](fluxograma.png)
 
 
 ## 4. Interface
 
 Permite o usuário inserir a mensagem que será cifrada, o offset ou chave de deslocamento, receber a mensagem cifrada e o mesmo ao decifrar.
 
-IMAGEM DA INTERFACE
+![interface](tela.png)
 
 
 ## 5. Objetivos de aprendizagem
