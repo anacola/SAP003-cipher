@@ -53,7 +53,7 @@ O usuário pode escolher entre cifrar ou decifrar uma mensagem, inserir a mensag
 
 Construir uma aplicação web que interaja com o usuário através do navegador e a lógica para essa interação com **HMTL, CSS e JavaScript**.
 
-
+    
 ## 6. Checklist
 
 Essa seção é para te ajudar a ter um controle do que você precisa completar.
