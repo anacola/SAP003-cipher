@@ -1,8 +1,9 @@
+/* Inserção de imagem de fundo */
 body {
     background-image: url("fundo.jpeg");
     background-size: cover;
     }
-
+/* edição de título */
 .titulo {
     font-family: 'Open Sans Condensed', sans-serif;
     color:white;
@@ -10,7 +11,7 @@ body {
     font-size: 35px;
     text-align: center;
 }
-
+/* Perguntas: "Que mensagem você quer CIFRAR/DECIFRAR" */
 .question {
     color:white  ;
     text-align: center;
@@ -18,7 +19,7 @@ body {
     font-size: 20px;
     text-align: center;
 }
-
+/* área onde o usuário insere a mensagem */
 .textbox {
     resize: none;
     border: 1px solid #00B3B8;
@@ -32,7 +33,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 15px;
 }
-
+/* área onde o usuário insere a chave */
 .key {
     resize: none;
     padding: 5px 20px;
@@ -45,7 +46,7 @@ body {
     margin:10px 0 0 500px;
     
 }
-
+/* botão */
 .botão {
     color: white;
     border: none;
@@ -64,11 +65,11 @@ body {
     top: 18px;
     left: 660px;
 }
-
+/* div onde está a chave e o botão */
 div {
     position: relative;
 }
-
+/* mensagem cifrada/decifrada que o usuário recebe */
 .resultado {
     color:white ;
     text-align: center;
@@ -77,100 +78,3 @@ div {
     font-size: 20px;
     text-align: center; 
 }
-
-/* html {
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h1 {
-    color:white;
-    font-weight: bold;
-    font-size: 35px;
-}
-
-p {
-    color:white  ;
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;  
-}
-
-body{
-    background-image: url("fundo.jpeg");
-    background-size: cover;
-    text-align: center;
-}
-
-textarea{
-    resize: none;
-    border: 1px solid #00B3B8;
-    border-radius: 15px;
-    color: gray;
-    height: 60px;
-    width: 300px;
-    display: inline-block;
-    padding: 5px 20px;
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 15px;  
-}
-
-#key{
-    height: 20px;
-    width: 100px;
-    border-radius: 30px;
-    display: inline-block;
-}
-
-#encodebutton{
-    color: white;
-    border: none;
-    text-transform: uppercase;
-    padding: 5px 5px;
-    border-radius: 20px;
-    background-color:#F2A900;
-    height: 30px;
-    width: 100px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    display: inline-block;
-}
-
-#result{
-    font-weight: bold;
-    font-size: 20px;  
-}
-
-#decodebutton{
-    color: white;
-    border: none;
-    text-transform: uppercase;
-    padding: 5px 5px;
-    border-radius: 20px;
-    background-color:#F2A900;
-    height: 30px;
-    width: 100px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    display: inline-block;
-    margin-left:2%;
-}
-
-#Dkey{
-    height: 20px;
-    width: 100px; 
-    border-radius: 30px;
-    display: inline-block;
-    margin-left:2%;
-}
-
-#resultdecode{
-    font-weight: bold;
-    font-size: 20px;  
-}
-
-div{
-    position:
-} */
