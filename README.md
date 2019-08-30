@@ -32,7 +32,7 @@ Cada dia mais a preocupação com o meio-ambiente aumenta e o ecossistema marinh
 
 Mas não é só a poluição e contaminação que influenciam negativamente nesse ecossistema, a pesca sem controle, o turismo desordenado, casas e hoteis sendo construidos em lugares irregulares, tudo resultado de uma educação ambiental defasada, também são prejudiciais.
 
-Para essa preservação acontecer existem organizações não governamentais que estão dispostas a realizar esse trabalho. Como muitas vezes essas ONGs lutam contra governos e empresas poderosas elas necessitam um canal seguro para se comunicar, essa criação foi criada para esse fim.
+Para essa preservação acontecer existem organizações não governamentais que estão dispostas a realizar esse trabalho. Como muitas vezes essas ONGs lutam contra governos e empresas poderosas elas necessitam um canal seguro para se comunicar, essa aplicação foi criada para esse fim.
 
 
 ## 3. O Projeto
